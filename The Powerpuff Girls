@@ -1,5 +1,4 @@
-<b>The Powerpuff Girls</b>
-
+#Solution of problem 1- The Powerpuff Girls
 n=int(input())
 a=list(map(int,input().split()))
 b=list(map(int,input().split()))
