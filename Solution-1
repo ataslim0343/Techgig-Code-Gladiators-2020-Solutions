@@ -1,0 +1,8 @@
+<b>The Powerpuff Girls</b>
+
+n=int(input())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+for i in range(n):
+    a[i]=b[i]//a[i]
+print(min(a))
